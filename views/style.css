@@ -1,0 +1,30 @@
+* {
+    background-color: bisque;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body {
+    background-color: whitesmoke;
+    grid-column: 2;
+    border: 2px solid #f76707;
+    font-family: Helvetica ;
+    height: 50vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    background-color: whitesmoke;
+    color: darkgrey;
+    letter-spacing: .3vmin;
+}
+
+ul, li {
+    background-color: whitesmoke;
+}

@@ -12,6 +12,9 @@ const app = express();
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
+//css
+app.use(express.static(__dirname + '/views'));
+
 //define a "root" route directly on app
 app.get('/', function (req, res) {
     res.redirect('/students');
